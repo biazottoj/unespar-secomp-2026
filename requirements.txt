@@ -1,0 +1,25 @@
+# Jupyter
+jupyterlab>=4.2,<5
+ipykernel>=6.29,<7
+
+# Data analysis
+numpy>=1.26,<3
+pandas>=2.2,<3
+
+# Visualization
+matplotlib>=3.8,<4
+seaborn>=0.13,<0.14
+plotly>=5.24,<7
+
+# Mining Software Repositories
+pydriller>=2.7,<3
+GitPython>=3.1,<4
+
+# Topic modelling / text analysis
+scikit-learn>=1.5,<2
+nltk>=3.9,<4
+wordcloud>=1.9,<2
+
+# Utilities
+requests>=2.32,<3
+tqdm>=4.66,<5

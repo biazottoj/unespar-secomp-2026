@@ -22,7 +22,6 @@ Seu grupo deve responder, no mínimo:
 2. Quantos commits do período analisado atendem aos critérios definidos?
 3. Quais arquivos aparecem com maior frequência nesses commits?
 4. Esses arquivos também estão entre os mais modificados do projeto?
-5. Existem componentes que parecem concentrar atividades corretivas?
 
 ## Dados que podem ser necessários
 
@@ -49,17 +48,6 @@ Por exemplo, podem ser explorados termos como:
 
 Essa lista é apenas uma possibilidade. O grupo pode propor outra estratégia.
 
-## Comparação importante
-
-Não analise apenas os commits identificados como correções.
-
-Compare também:
-
-- arquivos mais modificados em geral;
-- arquivos mais frequentes em possíveis correções.
-
-Essa comparação pode revelar se atividade geral e atividade corretiva estão concentradas nos mesmos locais.
-
 ## Visualizações
 
 Produza pelo menos **duas visualizações**.
@@ -67,30 +55,5 @@ Produza pelo menos **duas visualizações**.
 Exemplos:
 
 - ranking dos arquivos mais associados a correções;
-- comparação entre frequência geral e frequência em correções;
 - churn dos commits corretivos;
 - distribuição temporal das correções.
-
-## Entregáveis
-
-Ao final, o grupo deve apresentar:
-
-1. o critério utilizado para identificar possíveis correções;
-2. os dados coletados;
-3. a quantidade de commits identificados;
-4. pelo menos duas visualizações;
-5. os componentes considerados mais relevantes;
-6. uma conclusão;
-7. pelo menos duas limitações.
-
-## Atenção
-
-Uma mensagem contendo a palavra `fix` não prova que o commit corrige um defeito.
-
-Da mesma forma, um commit corretivo pode não utilizar nenhuma das palavras selecionadas.
-
-Portanto, sua classificação é um **proxy** e deve ser tratada como tal.
-
-## Questão para reflexão
-
-Como você validaria se o critério utilizado realmente identifica commits corretivos com precisão aceitável?

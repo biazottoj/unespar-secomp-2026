@@ -16,12 +16,9 @@ Usar o histórico Git para identificar arquivos ou diretórios que concentram mu
 
 ## Perguntas de investigação
 
-Seu grupo deve responder, no mínimo:
-
 1. Quais arquivos foram modificados com maior frequência?
 2. Quais arquivos apresentam maior churn?
 3. Os arquivos que mudam com maior frequência são também os que possuem maior churn?
-4. Quais arquivos ou módulos parecem merecer uma investigação mais detalhada?
 
 ## Dados que podem ser necessários
 
@@ -46,8 +43,6 @@ Você pode considerar medidas como:
 - quantidade de períodos diferentes em que um arquivo foi alterado;
 - agregação por diretório ou módulo.
 
-Entretanto, cabe ao grupo definir quais medidas são mais adequadas para caracterizar "instabilidade".
-
 ## Visualizações
 
 Produza pelo menos **duas visualizações** que ajudem a responder ao problema.
@@ -55,33 +50,5 @@ Produza pelo menos **duas visualizações** que ajudem a responder ao problema.
 Exemplos de possibilidades:
 
 - gráfico de barras;
-- scatter plot;
-- série temporal;
-- comparação entre arquivos ou módulos.
-
-## Entregáveis
-
-Ao final, o grupo deve apresentar:
-
-1. a pergunta de investigação refinada;
-2. os dados coletados;
-3. uma breve explicação de como os dados foram preparados;
-4. pelo menos duas visualizações;
-5. uma conclusão baseada nas evidências;
-6. pelo menos duas limitações da análise.
-
-## Atenção
-
-Um arquivo que muda frequentemente não é necessariamente um arquivo ruim.
-
-A análise deve distinguir entre:
-
-- evidência observada;
-- interpretação;
-- conclusão.
-
-Evite afirmar causalidade a partir de uma simples associação.
-
-## Questão para reflexão
-
-Se um arquivo aparece como altamente instável, que outras evidências seriam necessárias para decidir se ele realmente precisa ser refatorado?
+- gráfoco de pizza;
+- distribuicao de arquivos/churn

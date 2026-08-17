@@ -46,8 +46,6 @@ Por exemplo:
 - mês;
 - trimestre.
 
-A escolha da granularidade deve ser justificada.
-
 ## Possíveis métricas
 
 Considere analisar:
@@ -66,46 +64,3 @@ Exemplos:
 
 - gráfico de linhas;
 - barras por período;
-- comparação entre duas métricas.
-
-## Extensão opcional
-
-Se houver tempo, compare também as mensagens de commit entre dois períodos diferentes.
-
-Por exemplo:
-
-- primeira metade do histórico analisado;
-- segunda metade do histórico analisado.
-
-A pergunta pode ser:
-
-> Os tipos de atividade parecem ter mudado ao longo do tempo?
-
-## Entregáveis
-
-Ao final, o grupo deve apresentar:
-
-1. a pergunta de investigação refinada;
-2. a unidade temporal escolhida;
-3. os dados coletados;
-4. as métricas utilizadas;
-5. pelo menos duas visualizações;
-6. uma interpretação dos principais períodos;
-7. uma conclusão;
-8. pelo menos duas limitações.
-
-## Atenção
-
-Um pico de commits não significa necessariamente um problema.
-
-Ele pode estar associado, por exemplo, a:
-
-- uma release;
-- uma refatoração;
-- uma nova funcionalidade;
-- uma migração;
-- atividades automatizadas.
-
-## Questão para reflexão
-
-Que informações adicionais seriam necessárias para explicar por que determinado período apresentou um pico de atividade?

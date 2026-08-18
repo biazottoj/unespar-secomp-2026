@@ -13,9 +13,7 @@ services:
       - "${JUPYTER_PORT:-8888}:8888"
 
     volumes:
-      - ./notebooks:/workspace/notebooks
-      - ./datasets:/workspace/datasets
-      - ./repositories:/workspace/repositories
+      - ./:/workspace
 
     environment:
       PYTHONPATH: /workspace
